@@ -1,33 +1,42 @@
 {
-  "scope": "publication file references, triangle counts and selected private-data patterns; not appearance approval",
+  "scope": "Combined candidate references, semantic node counts and animation structure; not final glass or appearance acceptance",
   "missing": [],
   "broken_anchors": [],
   "models": [
     {
-      "web_file": "ae86-textured-web.glb",
-      "source": {
-        "triangles": 1390314,
-        "nodes": 34,
-        "animations": 6
-      },
-      "web": {
-        "triangles": 1390314,
-        "nodes": 34,
-        "animations": 6
-      }
+      "file": "ae86-combined-web.glb",
+      "wheels": 4,
+      "wheel_meshes": 1,
+      "glass_panes": 6,
+      "doors": 2,
+      "animations": [
+        "PIVOT_WHEEL_01Action",
+        "PIVOT_WHEEL_02Action",
+        "PIVOT_WHEEL_03Action",
+        "PIVOT_WHEEL_04Action",
+        "PIVOT_DOOR_LEFTAction",
+        "PIVOT_DOOR_RIGHTAction",
+        "Doors and wheels"
+      ],
+      "bytes": 39906220
     },
     {
-      "web_file": "ae86-color-ids-web.glb",
-      "source": {
-        "triangles": 2039484,
-        "nodes": 34,
-        "animations": 6
-      },
-      "web": {
-        "triangles": 2039484,
-        "nodes": 34,
-        "animations": 6
-      }
+      "file": "ae86-combined-ids-web.glb",
+      "wheels": 4,
+      "wheel_meshes": 4,
+      "glass_panes": 6,
+      "doors": 2,
+      "animations": [
+        "PIVOT_WHEEL_01Action",
+        "PIVOT_WHEEL_02Action",
+        "PIVOT_WHEEL_03Action",
+        "PIVOT_WHEEL_04Action",
+        "PIVOT_DOOR_LEFTAction",
+        "PIVOT_DOOR_RIGHTAction",
+        "Doors and wheels"
+      ],
+      "bytes": 51479772
     }
-  ]
+  ],
+  "note": "Color-ID wheel meshes are split for distinct per-wheel materials; textured wheels share one mesh."
 }
