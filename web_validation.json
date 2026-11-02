@@ -1,0 +1,33 @@
+{
+  "scope": "publication file references, triangle counts and selected private-data patterns; not appearance approval",
+  "missing": [],
+  "broken_anchors": [],
+  "models": [
+    {
+      "web_file": "ae86-textured-web.glb",
+      "source": {
+        "triangles": 1390314,
+        "nodes": 34,
+        "animations": 6
+      },
+      "web": {
+        "triangles": 1390314,
+        "nodes": 34,
+        "animations": 6
+      }
+    },
+    {
+      "web_file": "ae86-color-ids-web.glb",
+      "source": {
+        "triangles": 2039484,
+        "nodes": 34,
+        "animations": 6
+      },
+      "web": {
+        "triangles": 2039484,
+        "nodes": 34,
+        "animations": 6
+      }
+    }
+  ]
+}
